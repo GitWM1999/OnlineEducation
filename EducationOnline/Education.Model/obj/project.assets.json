@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\鲁士普\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\微信小程序\\EducationOnline\\Education.Model\\Education.Model.csproj",
+      "projectUniqueName": "D:\\实训2\\小组项目\\EducationOnline\\Education.Model\\Education.Model.csproj",
       "projectName": "Education.Model",
-      "projectPath": "D:\\微信小程序\\EducationOnline\\Education.Model\\Education.Model.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\微信小程序\\EducationOnline\\Education.Model\\obj\\",
+      "projectPath": "D:\\实训2\\小组项目\\EducationOnline\\Education.Model\\Education.Model.csproj",
+      "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
+      "outputPath": "D:\\实训2\\小组项目\\EducationOnline\\Education.Model\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

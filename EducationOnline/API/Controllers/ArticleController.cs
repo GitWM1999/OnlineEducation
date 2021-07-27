@@ -45,8 +45,12 @@ namespace Education.API.Controllers
             List<ArticleTypeOutPut> typeOutputs = _articleService.GetClassTypes(id);
             return APIResultHelper.Success(typeOutputs);
         }
-
-
+        [HttpGet]
+        [Route("/api/GetOne")]
+        public ResultData GetOne()
+        {
+            return APIResultHelper.Success("成功");
+        }
 
     }
 }
