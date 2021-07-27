@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Education.DTO.Article
+namespace Education.Model
 {
-    public class ArticleOutput
+    public class Article
     {
         public int ArticleId { get; set; }
         public string ArticleName { get; set; }
@@ -19,4 +19,5 @@ namespace Education.DTO.Article
         public DateTime CreateTime { get; set; }
         public DateTime UpdateTime { get; set; }
     }
+   
 }

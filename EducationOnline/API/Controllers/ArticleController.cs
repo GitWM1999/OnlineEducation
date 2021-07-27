@@ -1,56 +1,84 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Education.Common;
+using Education.DTO.Article;
+using Education.Model;
+using Education.Service.ArticleSer;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Education.Service;
-using Education.DTO;
-using Education.Common;
 
 namespace Education.API.Controllers
 {
-    
-    [ApiController]
-    public class ArticleController : ControllerBase
+    [Route("api/[controller]")]
+    public class ArticleController : Controller
     {
-        private IArticleService _articleService;
-        public ArticleController(IArticleService articleService)
+        private IArticleService _article;
+        private IMapper _mapper;
+        public ArticleController(IArticleService article, IMapper mapper)
         {
-            _articleService = articleService;
+            _article = article;
+            _mapper = mapper;
         }
-
 
         /// <summary>
-        /// 获取文章信息
+        /// 获取文章数据
         /// </summary>
         /// <returns></returns>
+        /// 
         [HttpGet]
-        [Route("/api/GetArticle")]
-        public ResultData GetArticle(string title="")
+        [Route("GetArticleData")]
+        public IActionResult GetArticleData(string articleName, string status, int page, int limit)
         {
-            List<ArticleOutPut> outputArticle = _articleService.GetArticles(title);
-            return APIResultHelper.Success(outputArticle);
+
+            List<ArticleOutput> ls = _article.GetArticleData(articleName, status, page, limit);
+            //var advertisting = _mapper.Map<List<ArticleDTO>>(ls);
+            int totalcount = ls.Count();
+            ls = ls.Skip((page - 1) * limit).Take(limit).ToList();
+            return Ok(new { query = ls, total = totalcount });
         }
-
-
         /// <summary>
-        /// 获取分类的信息
+        /// 添加文章
         /// </summary>
+        /// <param name="article"></param>
         /// <returns></returns>
-        [HttpGet]
-        [Route("/api/GetClassType")]
-        public ResultData GetClassType(int id=0)
+        [HttpPost]
+        [Route("ArticleAdd")]
+        public IActionResult ArticleAdd(ArticleInput article)
         {
-            List<ArticleTypeOutPut> typeOutputs = _articleService.GetClassTypes(id);
-            return APIResultHelper.Success(typeOutputs);
+            int i = _article.ArticleAdd(article);
+            //if (i > 0)
+            //{
+            //    RedisClient.redisClient.SetStringKey("key4", "value4", TimeSpan.FromHours(8));
+            //}
+            return Ok(i);
         }
-        [HttpGet]
-        [Route("/api/GetOne")]
-        public ResultData GetOne()
-        {
-            return APIResultHelper.Success("成功");
-        }
+        /// <summary>
+        /// 文章删除
+        /// </summary>
+        /// <param name="ArtId"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("ArticleDel")]
 
+        public IActionResult ArticleDel(int ArtId)
+        {
+            int i = _article.ArticleDel(ArtId);
+            return Ok(i);
+        }
+        /// <summary>
+        /// 文章修改
+        /// </summary>
+        /// <param name="art"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("ArticleEdit")]
+
+        public IActionResult ArticleEdit(ArticleInput art)
+        {
+            int i = _article.ArticleEdit(art);
+            return Ok(i);
+        }
     }
 }

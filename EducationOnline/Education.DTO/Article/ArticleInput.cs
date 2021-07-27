@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Education.DTO.Article
 {
-    public class ArticleOutput
+    public class ArticleInput
     {
         public int ArticleId { get; set; }
         public string ArticleName { get; set; }

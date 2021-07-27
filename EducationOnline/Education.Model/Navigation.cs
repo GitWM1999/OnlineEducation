@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Education.DTO.Article
+namespace Education.Model
 {
-    public class ArticleOutput
+
+    public class Navigation
     {
-        public int ArticleId { get; set; }
-        public string ArticleName { get; set; }
-        public int ArticleSort { get; set; }
-        public int ArticleStatus { get; set; }
-        public string ArticleDetails { get; set; }
+        public int NavigationId { get; set; }
+        public string NavigationTitle { get; set; }
+        public string NavigationLink { get; set; }
+        public string NavigationJump { get; set; }
+        public int NavigationStatus { get; set; }
+        public int NavigationSort { get; set; }
         public int IsDelete { get; set; }
         public string Updateor { get; set; }
         public string Creator { get; set; }
