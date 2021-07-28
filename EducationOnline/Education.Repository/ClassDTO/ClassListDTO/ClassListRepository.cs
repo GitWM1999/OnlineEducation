@@ -13,7 +13,7 @@ namespace Education.Repository.ClassDTO.ClassListDTO
         DBFactory db = new DBFactory();
         public List<ClassList> GetClassList(int TypeId, int SecondId)
         {
-            List<ClassList> ls = db.CRUd().Query<ClassList>("select * from ClassList where Class_Price=0");
+            List<ClassList> ls = db.CRUD().GetClassLists<ClassList>("select * from ClassList where Class_Price=0");
             if (TypeId != 0)
             {
                 ls = ls.Where(m => m.Class_ClassType == TypeId).ToList();

@@ -13,7 +13,7 @@ namespace Education.Repository.Prefecture
         DBFactory db = new DBFactory();
         public List<Precinct> GetPrefectureData(string prefectureName, string status, int page, int limit)
         {
-            List<Precinct> ls = db.CRUd().Query<Precinct>("select * from Precinct");
+            List<Precinct> ls = db.CRUD().GetClassLists<Precinct>("select * from Precinct");
             if (prefectureName != null)
             {
                 ls = ls.Where(m => m.PrecinctName.Contains(prefectureName)).ToList();
@@ -30,13 +30,13 @@ namespace Education.Repository.Prefecture
             prefecture.Creator = "lsp";
             prefecture.IsDelete = 1;
             prefecture.CreateTime = DateTime.Now;
-            int i = db.CRUd().Execute("insert into Precinct(PrecinctId,PrecinctName,PrecinctDetails,PrecinctJump,PrecinctSort,PrecinctStatus,IsDelete,Creator,CreateTime,Updateor,UpdateTime) values (@PrecinctId,@PrecinctName,@PrecinctDetails,@PrecinctJump,@PrecinctSort,@PrecinctStatus,@IsDelete,@Creator,@CreateTime,@Updateor,@UpdateTime)", prefecture);
+            int i = db.CRUD().Execute("insert into Precinct(PrecinctId,PrecinctName,PrecinctDetails,PrecinctJump,PrecinctSort,PrecinctStatus,IsDelete,Creator,CreateTime,Updateor,UpdateTime) values (@PrecinctId,@PrecinctName,@PrecinctDetails,@PrecinctJump,@PrecinctSort,@PrecinctStatus,@IsDelete,@Creator,@CreateTime,@Updateor,@UpdateTime)", prefecture);
             return i;
         }
 
         public int PrefectureDel(int preId)
         {
-            int i = db.CRUd().Execute($"delete from Precinct where PrecinctId={preId}");
+            int i = db.CRUD().Execute($"delete from Precinct where PrecinctId={preId}");
             return i;
         }
 
@@ -44,7 +44,7 @@ namespace Education.Repository.Prefecture
         {
             pre.Updateor = "lsp";
             pre.UpdateTime = DateTime.Now;
-            int i = db.CRUd().Execute("update Precinct set PrecinctName=@PrecinctName,PrecinctJump=@PrecinctJump,PrecinctStatus=@PrecinctStatus,PrecinctSort=@PrecinctSort,Updateor=@Updateor,UpdateTime=@UpdateTime where PrecinctId=@PrecinctId", pre);
+            int i = db.CRUD().Execute("update Precinct set PrecinctName=@PrecinctName,PrecinctJump=@PrecinctJump,PrecinctStatus=@PrecinctStatus,PrecinctSort=@PrecinctSort,Updateor=@Updateor,UpdateTime=@UpdateTime where PrecinctId=@PrecinctId", pre);
             return i;
         }
     }

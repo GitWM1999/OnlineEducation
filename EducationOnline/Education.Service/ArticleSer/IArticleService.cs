@@ -1,4 +1,4 @@
-﻿using Education.DTO.Article;
+﻿using Education.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -44,3 +44,15 @@ D:\微信小程序\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Mo
 D:\微信小程序\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.dll
 D:\微信小程序\EducationOnline\Education.Model\obj\Debug\net5.0\ref\Education.Model.dll
 D:\微信小程序\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.pdb
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\bin\Debug\net5.0\Education.Model.deps.json
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\bin\Debug\net5.0\Education.Model.dll
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\bin\Debug\net5.0\ref\Education.Model.dll
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\bin\Debug\net5.0\Education.Model.pdb
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.AssemblyInfoInputs.cache
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.AssemblyInfo.cs
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.csproj.CoreCompileInputs.cache
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.dll
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\ref\Education.Model.dll
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.pdb
+E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.csprojAssemblyReference.cache

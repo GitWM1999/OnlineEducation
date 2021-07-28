@@ -13,7 +13,7 @@ namespace Education.Repository.VideoDTO
         DBFactory db = new DBFactory();
         public List<Video> GetFreeVideo(int TypeId, int SecondId,int VideoId)
         {
-            List<Video> ls = db.CRUd().Query<Video>("select * from Video where CoursePrice=0");
+            List<Video> ls = db.CRUD().GetClassLists<Video>("select * from Video where CoursePrice=0");
             if (TypeId != 0)
             {
                 ls = ls.Where(m => m.Type_Id == TypeId).ToList();

@@ -33,3 +33,15 @@ C:\Users\HP\Desktop\EducationOnline\Education.Common\obj\Debug\net5.0\Education.
 C:\Users\HP\Desktop\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.dll
 C:\Users\HP\Desktop\EducationOnline\Education.Common\obj\Debug\net5.0\ref\Education.Common.dll
 C:\Users\HP\Desktop\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.pdb
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\bin\Debug\net5.0\Education.Common.deps.json
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\bin\Debug\net5.0\Education.Common.dll
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\bin\Debug\net5.0\ref\Education.Common.dll
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\bin\Debug\net5.0\Education.Common.pdb
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.AssemblyInfoInputs.cache
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.AssemblyInfo.cs
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.csproj.CoreCompileInputs.cache
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.dll
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\ref\Education.Common.dll
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.pdb
+E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.csprojAssemblyReference.cache

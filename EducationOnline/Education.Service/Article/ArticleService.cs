@@ -25,10 +25,10 @@ namespace Education.Service
         /// 获取文章的信息
         /// </summary>
         /// <returns></returns>
-        public List<ArticleOutPut> GetArticles(string title="")
+        public List<ArticleOutPuts> GetArticles(string title="",int id=0)
         {
-            List<CustomerArticle> articles = _article.GetArticles(title);
-            List<ArticleOutPut> articleOuts = _mapper.Map<List<ArticleOutPut>>(articles);
+            List<CustomerArticle> articles = _article.GetArticles(title,id);
+            List<ArticleOutPuts> articleOuts = _mapper.Map<List<ArticleOutPuts>>(articles);
             return articleOuts;
         }
 
@@ -37,9 +37,9 @@ namespace Education.Service
         /// 获取分类的信息
         /// </summary>
         /// <returns></returns>
-        public List<ArticleTypeOutPut> GetClassTypes(int id=0)
+        public List<ArticleTypeOutPut> GetClassTypes(int id=0, int start = 0)
         {
-            List<ClassType> classTypes = _article.GetClassTypes(id);
+            List<ClassType> classTypes = _article.GetClassTypes(id,start);
             List<ArticleTypeOutPut> typeOutputs = _mapper.Map<List<ArticleTypeOutPut>>(classTypes);
             return typeOutputs;
         }

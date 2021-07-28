@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Education.Common;
-using Education.DTO.Article;
+using Education.DTO;
 using Education.Model;
 using Education.Service.ArticleSer;
 using Microsoft.AspNetCore.Mvc;

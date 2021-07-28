@@ -16,32 +16,48 @@ namespace Education.Repository
         /// 获取文章信息
         /// </summary>
         /// <returns></returns>
-        public List<CustomerArticle> GetArticles(string title="")
+        public List<CustomerArticle> GetArticles(string title = "", int id = 0)
         {
-            string sql = $"select * from CustomerArticle where 1=1";
+            string sql = "";
+
+            sql = $"select (select count(*) from UserArticle where UserArticle.aid=CustomerArticle.id ) as num , CustomerArticle.ArticleTitle,customerarticle.ArticleContent,customerarticle.ReleaseTime from CustomerArticle where 1=1";
             if (!string.IsNullOrEmpty(title))
             {
-                sql += $" and ArticleTitle like concat('%',@title,'%')";
+                sql += $" and articletitle like concat('%',@title,'%')";
             }
-            return db.CRUD().GetClassLists<CustomerArticle>(sql,new { @title=title});
+            if (id != 0)
+            {
+                sql += $" and Id=@id";
+            }
+            sql += " limit 5";
+
+            return db.CRUD().GetClassLists<CustomerArticle>(sql, new { @title = title, @id = id });
         }
+
 
         /// <summary>
         /// 获取分类的信息
         /// </summary>
         /// <returns></returns>
-        public List<ClassType> GetClassTypes(int id=0)
+        public List<ClassType> GetClassTypes(int id = 0, int start = 0)
         {
-            string sql = $"select * from CustomerArticle join ClassType on CustomerArticle.ArticleTypeId=ClassType.Type_Id where 1=1";
-            if (id != 0)
+            string sql = "";
+            if (start == 1)
             {
-                 sql += $" and ClassType.Type_Id=@id";
+                sql = $"select * from ClassType";
             }
-            
-            return db.CRUD().GetClassLists<ClassType>(sql,new { @id=id});
+            if (start == 2)
+            {
+                sql = $"select * from CustomerArticle join ClassType on CustomerArticle.ArticleTypeId=ClassType.Type_Id join userinfo on customerarticle.UserId=userinfo.UserId where 1=1";
+                if (id != 0)
+                {
+                    sql += $" and ClassType.Type_Id=@id";
+                }
+            }
+
+
+            return db.CRUD().GetClassLists<ClassType>(sql, new { @id = id });
         }
-
-
 
     }
 }

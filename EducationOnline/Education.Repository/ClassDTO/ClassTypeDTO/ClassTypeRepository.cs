@@ -14,7 +14,7 @@ namespace Education.Repository.ClassDTO.ClassTypeDTO
 
         public List<ClassType> GetClassType()
         {
-            List<ClassType> ls = db.CRUd().Query<ClassType>("select * from ClassType");
+            List<ClassType> ls = db.CRUD().GetClassLists<ClassType>("select * from ClassType");
             return ls;
         }
     }

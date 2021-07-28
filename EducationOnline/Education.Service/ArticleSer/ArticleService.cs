@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Education.DTO.Article;
+using Education.DTO;
 using Education.Model;
 using Education.Repository.ArticleDTO;
 using System;

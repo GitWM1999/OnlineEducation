@@ -16,13 +16,13 @@ namespace Education.Repository.ArticleDTO
             article.Creator = "lsp";
             article.IsDelete = 1;
             article.CreateTime = DateTime.Now;
-            int i = db.CRUd().Execute("insert into Article(ArticleId,ArticleName,ArticleSort,ArticleStatus,ArticleDetails,IsDelete,Creator,CreateTime,Updateor,UpdateTime) values (@ArticleId,@ArticleName,@ArticleSort,@ArticleStatus,@ArticleDetails,@IsDelete,@Creator,@CreateTime,@Updateor,@UpdateTime)", article);
+            int i = db.CRUD().Execute("insert into Article(ArticleId,ArticleName,ArticleSort,ArticleStatus,ArticleDetails,IsDelete,Creator,CreateTime,Updateor,UpdateTime) values (@ArticleId,@ArticleName,@ArticleSort,@ArticleStatus,@ArticleDetails,@IsDelete,@Creator,@CreateTime,@Updateor,@UpdateTime)", article);
             return i;
         }
 
         public int ArticleDel(int ArtId)
         {
-            int i = db.CRUd().Execute($"delete from Article where ArticleId={ArtId}");
+            int i = db.CRUD().Execute($"delete from Article where ArticleId={ArtId}");
             return i;
         }
 
@@ -30,14 +30,14 @@ namespace Education.Repository.ArticleDTO
         {
             art.Updateor = "lsp";
             art.UpdateTime = DateTime.Now;
-            int i = db.CRUd().Execute("update Article set  ArticleName=@ArticleName,ArticleSort=@ArticleSort,ArticleStatus=@ArticleStatus,ArticleDetails=@ArticleDetails,Updateor=@Updateor,UpdateTime=@UpdateTime where ArticleId=@ArticleId", art);
+            int i = db.CRUD().Execute("update Article set  ArticleName=@ArticleName,ArticleSort=@ArticleSort,ArticleStatus=@ArticleStatus,ArticleDetails=@ArticleDetails,Updateor=@Updateor,UpdateTime=@UpdateTime where ArticleId=@ArticleId", art);
             return i;
         }
 
         public List<Article> GetArticleData(string articleName, string status, int page, int limit)
         {
             
-            List<Article> ls = db.CRUd().Query<Article>("select * from Article");
+            List<Article> ls = db.CRUD().GetClassLists<Article>("select * from Article");
             //var advertisting = _mapper.Map<List<ArticleDTO>>(ls);
             if (articleName != null)
             {

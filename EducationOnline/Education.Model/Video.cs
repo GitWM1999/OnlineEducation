@@ -25,7 +25,7 @@ namespace Education.Model
         public DateTime CreateTime { get; set; }                //创建时间
         public int Updateor { get; set; }                       //修改人
         public int VideoCollect { get; set; }
-
+        public int SecondId { get; set; }
         public DateTime UpdateTime { get; set; }                //修改时间
         public string BeginTimes { get; set; }
 

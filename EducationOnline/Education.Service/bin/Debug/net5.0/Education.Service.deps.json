@@ -1966,6 +1966,9 @@
         }
       },
       "Education.DTO/1.0.0": {
+        "dependencies": {
+          "Education.Model": "1.0.0"
+        },
         "runtime": {
           "Education.DTO.dll": {}
         }

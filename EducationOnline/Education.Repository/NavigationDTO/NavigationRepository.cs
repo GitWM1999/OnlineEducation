@@ -13,7 +13,7 @@ namespace Education.Repository.NavigationDTO
         DBFactory db = new DBFactory();
         public List<Navigation> GetNavigationData(string navigationName, string status, int page, int limit)
         {
-            List<Navigation> ls = db.CRUd().Query<Navigation>("select * from navigation");
+            List<Navigation> ls = db.CRUD().GetClassLists<Navigation>("select * from navigation");
             if (navigationName != null)
             {
                 ls = ls.Where(m => m.NavigationTitle.Contains(navigationName)).ToList();
@@ -30,13 +30,13 @@ namespace Education.Repository.NavigationDTO
             navigation.Creator = "lsp";
             navigation.CreateTime = DateTime.Now;
             navigation.IsDelete = 1;
-            int i = db.CRUd().Execute("insert into Navigation(NavigationId,NavigationTitle,NavigationLink,NavigationJump,NavigationStatus,NavigationSort,IsDelete,Creator,CreateTime,Updateor,UpdateTime) values (@NavigationId,@NavigationTitle,@NavigationLink,@NavigationJump,@NavigationStatus,@NavigationSort,@IsDelete,@Creator,@CreateTime,@Updateor,@UpdateTime)", navigation);
+            int i = db.CRUD().Execute("insert into Navigation(NavigationId,NavigationTitle,NavigationLink,NavigationJump,NavigationStatus,NavigationSort,IsDelete,Creator,CreateTime,Updateor,UpdateTime) values (@NavigationId,@NavigationTitle,@NavigationLink,@NavigationJump,@NavigationStatus,@NavigationSort,@IsDelete,@Creator,@CreateTime,@Updateor,@UpdateTime)", navigation);
             return i;
         }
 
         public int NavigationDel(int NavId)
         {
-            int i = db.CRUd().Execute($"delete from Navigation where NavigationId={NavId}");
+            int i = db.CRUD().Execute($"delete from Navigation where NavigationId={NavId}");
             return i;
         }
 
@@ -44,7 +44,7 @@ namespace Education.Repository.NavigationDTO
         {
             nav.Updateor = "lsp";
             nav.UpdateTime = DateTime.Now;
-            int i = db.CRUd().Execute("update Navigation set NavigationTitle=@NavigationTitle,NavigationJump=@NavigationJump,NavigationStatus=@NavigationStatus,NavigationSort=@NavigationSort,Updateor=@Updateor,UpdateTime=@UpdateTime where NavigationId=@NavigationId", nav);
+            int i = db.CRUD().Execute("update Navigation set NavigationTitle=@NavigationTitle,NavigationJump=@NavigationJump,NavigationStatus=@NavigationStatus,NavigationSort=@NavigationSort,Updateor=@Updateor,UpdateTime=@UpdateTime where NavigationId=@NavigationId", nav);
             return i;
         }
     }

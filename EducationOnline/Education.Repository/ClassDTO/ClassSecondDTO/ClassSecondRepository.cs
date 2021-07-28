@@ -14,7 +14,7 @@ namespace Education.Repository.ClassDTO.ClassSecondDTO
         public List<ClassSecondType> GetClassSecondType(int TypeId)
         {
 
-            List<ClassSecondType> ls = db.CRUd().Query<ClassSecondType>("select * from ClassSecondType");
+            List<ClassSecondType> ls = db.CRUD().GetClassLists<ClassSecondType>("select * from ClassSecondType");
             if (TypeId != 0)
             {
                 ls = ls.Where(m => m.Class_ClassType == TypeId).ToList();

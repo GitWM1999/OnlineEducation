@@ -15,11 +15,11 @@ namespace Education.DTO
         public int Type_Sort { get; set; }
         public string Type_Remark { get; set; }
 
-        public int Id { get; set; }
-        public string ArticleTitle { get; set; }
-        public string ArticleContent { get; set; }
-        public DateTime ReleaseTime { get; set; }
-        public int UserId { get; set; }
-        public string UserPhone { get; set; }
+        public int OutPutId { get; set; }
+        public string OutPutArticleTitle { get; set; }
+        public string OutPutArticleContent { get; set; }
+        public DateTime OutPutReleaseTime { get; set; }
+        public int OutPutUserId { get; set; }
+        public string OutPutUserPhone { get; set; }
     }
 }

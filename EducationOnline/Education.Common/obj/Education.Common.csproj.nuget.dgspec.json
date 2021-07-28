@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\实训2\\小组项目\\EducationOnline\\Education.Common\\Education.Common.csproj": {}
+    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {}
   },
   "projects": {
-    "D:\\实训2\\小组项目\\EducationOnline\\Education.Common\\Education.Common.csproj": {
+    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\实训2\\小组项目\\EducationOnline\\Education.Common\\Education.Common.csproj",
+        "projectUniqueName": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj",
         "projectName": "Education.Common",
-        "projectPath": "D:\\实训2\\小组项目\\EducationOnline\\Education.Common\\Education.Common.csproj",
-        "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
-        "outputPath": "D:\\实训2\\小组项目\\EducationOnline\\Education.Common\\obj\\",
+        "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj",
+        "packagesPath": "C:\\Users\\王\\.nuget\\packages\\",
+        "outputPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\王\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     }
