@@ -9,6 +9,7 @@ namespace Education.DTO.Class
     public class ClassListOutput
     {
         public int Class_Id { get; set; }
+        public int Class_Collect { get; set; }
         public string Class_Img { get; set; }
         public string Class_Name { get; set; }
         public decimal Class_Price { get; set; }

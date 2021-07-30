@@ -137,5 +137,24 @@ namespace Education.Common
                 }
             }
         }
+
+        public object ExecuteScalar(string sql, object param = null)
+        {
+            using (IDbConnection con = new MySqlConnection(DbConfig.MySqlConStr))
+            {
+                con.Open();
+                try
+                {
+                    object i = con.ExecuteScalar(sql, param);
+                    return i;
+                }
+                catch (Exception ex)
+                {
+                    //NLogHelper.Error("数据库异常错误", ex);
+                    //throw;
+                    return null;
+                }
+            }
+        }
     }
 }

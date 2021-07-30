@@ -55,6 +55,12 @@ namespace Education.Service.ClassListSer
             var ClassTypeOutputs = _mapper.Map<List<ClassTypeOutput>>(classTypes);
             return ClassTypeOutputs;
             }
+        public List<ClassListOutput> GetClassSecond(int TypeId)
+        {
+            List<ClassList> classLists = _classList.GetClassSecondType(TypeId);
+            var ClassListOutputs = _mapper.Map<List<ClassListOutput>>(classLists);
+            return ClassListOutputs;
+        }
         public List<V_ClassdetailOutput> GetClassDetail(int classId)
         {
             List<V_Classdetail> v_Classdetails = _classdetail.GetClassDetail(classId);
@@ -71,6 +77,10 @@ namespace Education.Service.ClassListSer
 
         }
 
-
+        public int CollectEdit(int ClassId)
+        {
+            int i = _classList.CollectEdit(ClassId);
+            return i;
+        }
     }
 }

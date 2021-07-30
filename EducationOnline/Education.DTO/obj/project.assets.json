@@ -27,23 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\王\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\鲁士普\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj",
+      "projectUniqueName": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj",
       "projectName": "Education.DTO",
-      "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj",
-      "packagesPath": "C:\\Users\\王\\.nuget\\packages\\",
-      "outputPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\obj\\",
+      "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj",
+      "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
+      "outputPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\王\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -57,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
-              "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj"
+            "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
+              "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj"
             }
           }
         }
@@ -87,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

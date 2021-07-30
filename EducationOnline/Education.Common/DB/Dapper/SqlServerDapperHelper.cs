@@ -133,5 +133,10 @@ namespace Education.Common
                 }
             }
         }
+
+        public object ExecuteScalar(string sql, object param = null)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

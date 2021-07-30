@@ -56,3 +56,15 @@ E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.
 E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\ref\Education.Model.dll
 E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.pdb
 E:\大二\github\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.csprojAssemblyReference.cache
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\bin\Debug\net5.0\Education.Model.deps.json
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\bin\Debug\net5.0\Education.Model.dll
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\bin\Debug\net5.0\ref\Education.Model.dll
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\bin\Debug\net5.0\Education.Model.pdb
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.csprojAssemblyReference.cache
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.AssemblyInfoInputs.cache
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.AssemblyInfo.cs
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.csproj.CoreCompileInputs.cache
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.dll
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\ref\Education.Model.dll
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Model\obj\Debug\net5.0\Education.Model.pdb

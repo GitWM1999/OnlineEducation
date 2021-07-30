@@ -37,5 +37,7 @@ namespace Education.Common
         /// <param name="dic"></param>
         /// <returns></returns>
         int ExecuteTransaction(Dictionary<string, object> dic);
+
+        object ExecuteScalar(string sql, object param = null);
     }
 }

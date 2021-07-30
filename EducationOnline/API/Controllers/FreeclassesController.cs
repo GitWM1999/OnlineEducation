@@ -2,6 +2,7 @@
 using Education.DTO.Video;
 using Education.Model;
 using Education.Service.ClassListSer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,14 @@ namespace Education.API.Controllers
             List<ClassTypeOutput> ls = _classListService.GetClassType();
             return Ok(ls);
         }
+
+        [HttpGet]
+        [Route("GetClassSecond")]
+        public IActionResult GetClassSecond(int TypeId)
+        {
+            List<ClassListOutput> ls = _classListService.GetClassSecond(TypeId);
+            return Ok(ls);
+        }
         /// <summary>
         /// 获取课程二级类型
         /// </summary>
@@ -48,6 +57,7 @@ namespace Education.API.Controllers
         /// 获取免费课程
         /// </summary>
         /// <returns></returns>
+        [Authorize]
         [HttpGet]
         [Route("GetClassList")]
         public IActionResult GetClassList(int TypeId,int SecondId)
@@ -99,6 +109,14 @@ namespace Education.API.Controllers
 
                         };
             return Ok(query);
+        }
+        [HttpPost]
+        [Route("CollectEdit")]
+
+        public IActionResult CollectEdit(int ClassId)
+        {
+            int i = _classListService.CollectEdit(ClassId);
+            return Ok(i);
         }
 
 

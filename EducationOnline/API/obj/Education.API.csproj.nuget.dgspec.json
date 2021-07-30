@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\API\\Education.API.csproj": {}
+    "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\API\\Education.API.csproj": {}
   },
   "projects": {
-    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\API\\Education.API.csproj": {
+    "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\API\\Education.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\API\\Education.API.csproj",
+        "projectUniqueName": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\API\\Education.API.csproj",
         "projectName": "Education.API",
-        "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\API\\Education.API.csproj",
-        "packagesPath": "C:\\Users\\王\\.nuget\\packages\\",
-        "outputPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\API\\obj\\",
+        "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\API\\Education.API.csproj",
+        "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
+        "outputPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\王\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj"
               },
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj"
               }
             }
           }
@@ -78,6 +75,10 @@
               "target": "Package",
               "version": "[4.4.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
             "MiniProfiler.Shared": {
               "target": "Package",
               "version": "[4.2.22, )"
@@ -109,24 +110,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
+    "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj",
+        "projectUniqueName": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj",
         "projectName": "Education.Common",
-        "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj",
-        "packagesPath": "C:\\Users\\王\\.nuget\\packages\\",
-        "outputPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\obj\\",
+        "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj",
+        "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
+        "outputPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\王\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -219,6 +217,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.0, )"
             }
           },
           "imports": [
@@ -236,24 +238,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj": {
+    "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj",
+        "projectUniqueName": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj",
         "projectName": "Education.DTO",
-        "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj",
-        "packagesPath": "C:\\Users\\王\\.nuget\\packages\\",
-        "outputPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\obj\\",
+        "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj",
+        "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
+        "outputPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\王\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,8 +266,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj"
               }
             }
           }
@@ -297,24 +296,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
+    "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj",
+        "projectUniqueName": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj",
         "projectName": "Education.Model",
-        "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj",
-        "packagesPath": "C:\\Users\\王\\.nuget\\packages\\",
-        "outputPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\obj\\",
+        "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj",
+        "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
+        "outputPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\王\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -354,24 +350,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj": {
+    "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj",
+        "projectUniqueName": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj",
         "projectName": "Education.Repository",
-        "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj",
-        "packagesPath": "C:\\Users\\王\\.nuget\\packages\\",
-        "outputPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Repository\\obj\\",
+        "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj",
+        "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
+        "outputPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\王\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -385,11 +378,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj"
               },
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj"
               }
             }
           }
@@ -418,24 +411,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj": {
+    "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj",
+        "projectUniqueName": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj",
         "projectName": "Education.Service",
-        "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj",
-        "packagesPath": "C:\\Users\\王\\.nuget\\packages\\",
-        "outputPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Service\\obj\\",
+        "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Service\\Education.Service.csproj",
+        "packagesPath": "C:\\Users\\鲁士普\\.nuget\\packages\\",
+        "outputPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\王\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\鲁士普\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -449,17 +439,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Common\\Education.Common.csproj"
               },
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.DTO\\Education.DTO.csproj"
               },
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Model\\Education.Model.csproj"
               },
-              "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj": {
-                "projectPath": "E:\\大二\\github\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj"
+              "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj": {
+                "projectPath": "D:\\实训2\\小组项目\\OnlineEducation\\EducationOnline\\Education.Repository\\Education.Repository.csproj"
               }
             }
           }
@@ -498,7 +488,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

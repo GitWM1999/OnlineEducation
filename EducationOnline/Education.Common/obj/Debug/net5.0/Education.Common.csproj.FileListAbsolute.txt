@@ -45,3 +45,15 @@ E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5
 E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\ref\Education.Common.dll
 E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.pdb
 E:\大二\github\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.csprojAssemblyReference.cache
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.dll
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\ref\Education.Common.dll
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.pdb
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\bin\Debug\net5.0\Education.Common.deps.json
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\bin\Debug\net5.0\Education.Common.dll
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\bin\Debug\net5.0\ref\Education.Common.dll
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\bin\Debug\net5.0\Education.Common.pdb
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.csprojAssemblyReference.cache
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.AssemblyInfoInputs.cache
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.AssemblyInfo.cs
+D:\实训2\小组项目\OnlineEducation\EducationOnline\Education.Common\obj\Debug\net5.0\Education.Common.csproj.CoreCompileInputs.cache
