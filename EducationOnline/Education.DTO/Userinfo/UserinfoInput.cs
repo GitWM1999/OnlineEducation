@@ -8,7 +8,18 @@ namespace Education.DTO.Userinfo
 {
     public class UserinfoInput
     {
+        public int UserId { get; set; }
+        public string UserNumber { get; set; }
         public string UserAccount { get; set; }
         public string UserPass { get; set; }
+        public string UserNike { get; set; }
+        public string UserName { get; set; }
+        public int UserAge { get; set; }
+        public int UserSex { get; set; }
+        public string UserPhone { get; set; }
+        public string UserComment { get; set; }
+        public string Userimg { get; set; }
+        public DateTime CreatePersonTime { get; set; }
+        public int IsDelete { get; set; }
     }
 }

@@ -19,6 +19,8 @@ namespace Education.DTO.Video
         public DateTime VideoTrueBeginTime { get; set; }
         public DateTime VideoTrueEndTime { get; set; }
         public int VideoShowModel { get; set; }
+
+        public int VideoCollect { get; set; }
         public string VideoImg { get; set; }
         public int Teacher_Id { get; set; }
         public int SecondId { get; set; }

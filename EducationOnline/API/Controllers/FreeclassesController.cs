@@ -102,8 +102,8 @@ namespace Education.API.Controllers
                             VideoState = s.VideoState,
                             CoursePrice = s.CoursePrice,
                             Appointment = s.VideoTrueBeginTime > DateTime.Now ? 1 : 0,
-                            DistanceTime = (s.VideoTrueBeginTime - DateTime.Now).TotalMilliseconds
-
+                            DistanceTime = (s.VideoTrueBeginTime - DateTime.Now).TotalMilliseconds,
+                            VideoCollect = s.VideoCollect
 
 
 
@@ -116,6 +116,14 @@ namespace Education.API.Controllers
         public IActionResult CollectEdit(int ClassId)
         {
             int i = _classListService.CollectEdit(ClassId);
+            return Ok(i);
+        }
+
+        [HttpPost]
+        [Route("EditVideoCollect")]
+        public IActionResult EditVideoCollect(int VideoId)
+        {
+            int i = _classListService.EditVideoCollect(VideoId);
             return Ok(i);
         }
 

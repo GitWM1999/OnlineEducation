@@ -15,5 +15,7 @@ namespace Education.Repository.ClassDTO.ClassListDTO
 
         List<ClassList> GetClassSecondType(int TypeId);
 
+        List<ClassList> GetSystemClass(int TypeId, int SecondId);
+
     }
 }

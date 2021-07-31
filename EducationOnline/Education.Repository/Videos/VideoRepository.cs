@@ -23,6 +23,23 @@ namespace Education.Repository
             return db.CRUD().Execute(sql, new { @id = id });
         }
 
+        public int EditVideoCollect(int VideoId)
+        {
+            int i = 0;
+            List<Video> ls = db.CRUD().GetClassLists<Video>("select * from Video where CoursePrice=0");
+            Video video = ls.First(m => m.VideoId == VideoId);
+
+            if (video.VideoCollect == 0)
+            {
+                i = db.CRUD().Execute("update Video set VideoCollect=1 where VideoId=@VideoId", video);
+            }
+            if (video.VideoCollect == 1)
+            {
+                i = db.CRUD().Execute("update Video set VideoCollect=0 where VideoId=@VideoId", video);
+            }
+            return i;
+        }
+
         /// <summary>
         /// 修改直播状态
         /// </summary>

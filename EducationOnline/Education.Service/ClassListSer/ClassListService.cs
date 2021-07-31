@@ -82,5 +82,18 @@ namespace Education.Service.ClassListSer
             int i = _classList.CollectEdit(ClassId);
             return i;
         }
+
+        public int EditVideoCollect(int VideoId)
+        {
+            int i = _video.EditVideoCollect(VideoId);
+            return i;
+        }
+
+        public List<ClassListOutput> GetSystemClass(int TypeId, int SecondId)
+        {
+            List<ClassList> classLists = _classList.GetSystemClass(TypeId, SecondId);
+            var ClassListOutputs = _mapper.Map<List<ClassListOutput>>(classLists);
+            return ClassListOutputs;
+        }
     }
 }

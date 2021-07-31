@@ -26,7 +26,7 @@ namespace Education.Model
         public int Class_Collect { get; set; }
         public int Class_SaleState { get; set; }
 
-
+        public string Class_File { get; set; }
         public int SecondType_Id { get; set; }
         public string SecondType_Name { get; set; }
 
