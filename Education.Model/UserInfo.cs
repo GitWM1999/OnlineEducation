@@ -18,7 +18,7 @@ namespace Education.Model
         public int UserSex { get; set; }
         public string UserPhone { get; set; }
         public string UserComment { get; set; }
-        public string UserFace { get; set; }
+        public string Userimg { get; set; }
         public DateTime CreatePersonTime { get; set; }
         public int IsDelete { get; set; }
         

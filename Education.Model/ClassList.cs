@@ -26,11 +26,15 @@ namespace Education.Model
         public int Class_Collect { get; set; }
         public int Class_SaleState { get; set; }
 
-
+        public string Class_File { get; set; }
         public int SecondType_Id { get; set; }
         public string SecondType_Name { get; set; }
 
-
+        public int UserId { get; set; }
+        public int Car { get; set; }
+        public int Collect { get; set; }
+        public int Lcourse { get; set; }
+        public int Vcourse { get; set; }
         public int Type_Id { get; set; }
         public string Type_Name { get; set; }
 

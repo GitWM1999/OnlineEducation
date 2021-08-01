@@ -25,6 +25,11 @@ namespace Education.DTO.Class
         public int Class_Second { get; set; }
         public int Class_IsDelete { get; set; }
 
+        public int UserId { get; set; }
+        public int Car { get; set; }
+        public int Collect { get; set; }
+        public int Lcourse { get; set; }
+        public int Vcourse { get; set; }
         public string Creator { get; set; }
         public DateTime CreateTime { get; set; }
         public string Updateor { get; set; }

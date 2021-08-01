@@ -10,5 +10,7 @@ namespace Education.Repository.VideoDTO
     public interface IVideoRepository
     {
         List<Video> GetFreeVideo(int TypeId, int SecondId, int VideoId);
+
+        int EditVideoCollect(int VideoId);
     }
 }

@@ -33,6 +33,8 @@ namespace Education.Repository
         /// <returns></returns>
         int EditVideoStat(Video video);
 
+        
+
 
     }
 }

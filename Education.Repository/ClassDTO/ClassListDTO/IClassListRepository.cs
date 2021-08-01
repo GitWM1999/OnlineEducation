@@ -11,9 +11,12 @@ namespace Education.Repository.ClassDTO.ClassListDTO
     {
         List<ClassList> GetClassList(int TypeId, int SecondId);
 
+
         int CollectEdit(int ClassId);
 
         List<ClassList> GetClassSecondType(int TypeId);
+
+        List<ClassList> GetSystemClass(int TypeId, int SecondId);
 
     }
 }

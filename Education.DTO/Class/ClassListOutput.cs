@@ -13,6 +13,12 @@ namespace Education.DTO.Class
         public string Class_Img { get; set; }
         public string Class_Name { get; set; }
         public decimal Class_Price { get; set; }
+
+        public int UserId { get; set; }
+        public int Car { get; set; }
+        public int Collect { get; set; }
+        public int Lcourse { get; set; }
+        public int Vcourse { get; set; }
         public int Class_Added { get; set; }
         public int Class_State { get; set; }
         public int Class_Sort { get; set; }

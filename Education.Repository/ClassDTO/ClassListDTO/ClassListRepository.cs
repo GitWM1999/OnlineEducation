@@ -16,7 +16,7 @@ namespace Education.Repository.ClassDTO.ClassListDTO
         {
             int i = 0;
 
-            List<ClassList> ls = db.CRUD().GetClassLists<ClassList>("select * from ClassList where Class_Price=0");
+            List<ClassList> ls = db.CRUD().GetClassLists<ClassList>("select * from ClassList");
             ClassList classList = ls.First(m => m.Class_Id == ClassId);
 
             if (classList.Class_Collect == 0)
@@ -45,10 +45,28 @@ namespace Education.Repository.ClassDTO.ClassListDTO
             return ls;
         }
 
+
         public List<ClassList> GetClassSecondType(int TypeId)
         {
             List<ClassList> ls = db.CRUD().GetClassLists<ClassList>("select * from ClassList");
             ls = ls.Where(m => m.Class_Second == TypeId).ToList();
+            return ls;
+        }
+
+       
+
+        public List<ClassList> GetSystemClass(int TypeId, int SecondId)
+        {
+            List<ClassList> ls = db.CRUD().GetClassLists<ClassList>("select * from ClassList where Class_Price!=0");
+            if (TypeId != 0)
+            {
+                ls = ls.Where(m => m.Class_ClassType == TypeId).ToList();
+            }
+            if (SecondId != 0)
+            {
+                ls = ls.Where(m => m.Class_Second == SecondId).ToList();
+            }
+
             return ls;
         }
     }

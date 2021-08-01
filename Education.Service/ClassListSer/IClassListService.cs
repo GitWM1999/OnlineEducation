@@ -17,5 +17,9 @@ namespace Education.Service.ClassListSer
         List<VideoOutput> GetFreeVideo(int TypeId, int SecondId,int VideoId);
         List<ClassListOutput> GetClassSecond(int TypeId);
         int CollectEdit(int ClassId);
+
+        int EditVideoCollect(int VideoId);
+
+        List<ClassListOutput> GetSystemClass(int TypeId, int SecondId);
     }
 }
